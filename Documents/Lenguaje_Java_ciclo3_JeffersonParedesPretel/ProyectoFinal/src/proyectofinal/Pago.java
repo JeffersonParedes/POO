@@ -31,6 +31,11 @@ public void reembolsarPago() {
     System.out.println("Reembolsando el pago de " + monto + " realizado en la fecha " + fechapago);
     }
 
+   @Override
+    public void mostrarInformacion() {
+        System.out.println("Pago: Monto: " + monto + ", Fecha de pago: " + fechaPago + ", Método de pago: " + metodoPago);
+    }
+
     public BigDecimal getMonto() {
         return monto;
     }
