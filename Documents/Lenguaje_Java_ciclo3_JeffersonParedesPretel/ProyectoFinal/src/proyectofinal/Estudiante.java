@@ -4,7 +4,7 @@ package proyectofinal;
 public class Estudiante extends Persona {
     private int tutoriasTomadas;
 
-    public Alumno(int codigo, String nombre, int edad, int tutoriasTomadas) {
+    public Estudiante(int codigo, String nombre, int edad, int tutoriasTomadas) {
         super(codigo, nombre,edad);
         this.tutoriasTomadas = tutoriasTomadas;
     }
