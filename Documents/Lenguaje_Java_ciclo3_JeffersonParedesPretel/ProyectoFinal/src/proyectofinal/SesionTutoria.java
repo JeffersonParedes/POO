@@ -32,6 +32,11 @@ class SesionTutoria {
         System.out.println("Actualizando detalles de la sesión de tutoría para " + materia);
     }
 
+     @Override
+    public void mostrarInformacion() {
+        System.out.println("Sesión de Tutoría: Materia: " + materia + ", Fecha y Hora: " + fechaHora + ", Estado: " + estado + ", Detalles: " + detalles);
+    }
+
     public String getMateria() {
         return materia;
     }
