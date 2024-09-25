@@ -39,6 +39,11 @@ public MaterialDeEstudio(String titulo, String descripcion, String tipo, String 
         System.out.println("Descargando material: " + titulo + " desde la ruta " + rutaArchivo);
     }
 
+    @Override
+    public void mostrarInformacion() {
+        System.out.println("Material de Estudio: Título: " + titulo + ", Descripción: " + descripcion + ", Tipo: " + tipo + ", Ruta: " + rutaArchivo + ", Fecha de Subida: " + fechaSubida);
+    }
+    
     public String getTitulo() {
         return titulo;
     }
