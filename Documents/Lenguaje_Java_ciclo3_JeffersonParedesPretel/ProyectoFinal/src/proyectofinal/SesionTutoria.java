@@ -1,8 +1,8 @@
 
 package proyectofinal;
 
-public class SesionTutoria {
-private String materia;
+class SesionTutoria {
+    private String materia;
     private Date fechaHora;
     private String estado;
     private String detalles;
